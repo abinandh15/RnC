@@ -14,11 +14,21 @@
   },
   "devDependencies": {
     "@dcl/eslint-config": "^1.0.1",
-    "decentraland-ecs": "latest"
+    "decentraland-ecs": "^6.11.11"
   },
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=6.0.0",
     "yarn": "please use npm"
-  }
+  },
+  "dependencies": {
+    "@dcl/builder-hud": "^1.0.2",
+    "@dcl/ecs-scene-utils": "^1.7.5",
+    "@dcl/npc-scene-utils": "^1.5.1"
+  },
+  "bundledDependencies": [
+    "@dcl/ecs-scene-utils",
+    "@dcl/npc-scene-utils",
+    "@dcl/builder-hud"
+  ]
 }
